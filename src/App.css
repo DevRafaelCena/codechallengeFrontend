@@ -14,19 +14,63 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: antiquewhite;
   min-height: 100vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
+
 .App-link {
-  color: #61dafb;
+  color: #0c0c0c;
 }
+
+#grid {
+  height: 80vh;
+  width: 80vw;
+  display: grid; 
+ 
+}
+.todo-form input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 50px;
+}
+.btn-salvar {
+  width:auto;
+  font-size:30px;
+  height:50px;
+  border-radius:5px;
+  color: red
+}
+
+.task{
+  margin: 0;
+  height:30px;
+  padding: 05;
+  margin-top: 10px;
+  word-wrap:break-word;
+  position: relative!important;
+}
+.btn-Concluir{
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  border-radius:5px;
+  border: none;
+}
+.inputKey{
+  font-size:30px;
+  width:fit-content;
+}
+
 
 @keyframes App-logo-spin {
   from {
